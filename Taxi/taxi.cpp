@@ -14,7 +14,7 @@ int main(){
         sum += arr[i];
     }
 
-    if(sum % 2 == 0){
+    if(sum % 4 == 0){
         car = sum / 4;
         cout << car << endl;
     }
