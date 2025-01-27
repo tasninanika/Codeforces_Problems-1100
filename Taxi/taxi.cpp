@@ -16,7 +16,11 @@ int main(){
 
     if(sum % 2 == 0){
         car = sum / 2;
-        cout << (sum)
+        cout << car << endl;
+    }
+    else{
+        car = (sum / 2) + 1;
+        cout << car << endl;
     }
 
     return 0;
