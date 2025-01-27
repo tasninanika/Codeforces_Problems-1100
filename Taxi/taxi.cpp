@@ -23,7 +23,7 @@ int main(){
         }
     }
     min_car = c4;
-    if(1 != 0 && c3 != 0){
+    while(c1 != 0 && c3 != 0){
         c3 = c3 - 1;
         c1 = c1 - 1;
         min_car = min_car + 1;
