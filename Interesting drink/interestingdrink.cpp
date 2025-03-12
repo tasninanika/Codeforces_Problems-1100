@@ -18,19 +18,13 @@ int main(){
         cin >> m[i];
     }
 
-    int c = 0;
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < q; j++){
-            if(m[i] >= x[i]){
+    for(int i = 0; i < q; i++){
+        int c = 0;
+        for(int j = 0; j < n; j++){
+            if(m[i] >= x[j]){
                 c++;
             }
         }
-    }
-
-    if(c == 0){
-        cout << 0 << endl;
-    }
-    else{
         cout << c << endl;
     }
 
