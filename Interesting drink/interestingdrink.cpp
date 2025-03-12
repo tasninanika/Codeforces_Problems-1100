@@ -27,5 +27,9 @@ int main(){
         }
     }
 
+    if(c > 0){
+
+    }
+
     return 0;
 }
