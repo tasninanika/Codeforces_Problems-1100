@@ -15,7 +15,7 @@ int main(){
 
     int m[q];
     for(int i = 0; i < q; i++){
-
+        cin >> m[i];
     }
 
     return 0;
