@@ -16,7 +16,10 @@ int main(){
     cin >> q;
 
     while(q--){
+        int m;
+        cin >> m;
 
+        int shops = upper_bound(x, x + n, m) - x;
     }
 
     return 0;
