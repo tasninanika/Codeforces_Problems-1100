@@ -18,5 +18,9 @@ int main(){
         cin >> m[i];
     }
 
+    for(int i = 0; i < n; i++){
+
+    }
+
     return 0;
 }
