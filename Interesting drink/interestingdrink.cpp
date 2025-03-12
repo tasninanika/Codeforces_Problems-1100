@@ -10,5 +10,8 @@ int main(){
         cin >> x[i];
     }
 
+    int q;
+
+
     return 0;
 }
