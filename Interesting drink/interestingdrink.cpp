@@ -30,7 +30,9 @@ int main(){
     if(c == 0){
         cout << 0 << endl;
     }
-
+    else{
+        cout << c << endl;
+    }
 
     return 0;
 }
