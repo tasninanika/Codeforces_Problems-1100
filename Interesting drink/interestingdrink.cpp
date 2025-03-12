@@ -20,6 +20,8 @@ int main(){
         cin >> m;
 
         int shops = upper_bound(x, x + n, m) - x;
+
+        cout << shops << endl;
     }
 
     return 0;
