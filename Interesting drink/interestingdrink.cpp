@@ -5,7 +5,7 @@ int main(){
     int n;
     cin >> n;
 
-
+    int x[n];
 
     return 0;
 }
