@@ -27,9 +27,10 @@ int main(){
         }
     }
 
-    if(c > 0){
-
+    if(c == 0){
+        cout << 0 << endl;
     }
+
 
     return 0;
 }
