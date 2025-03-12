@@ -18,6 +18,7 @@ int main(){
         cin >> m[i];
     }
 
+    int c = 0;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < q; j++){
             if(m[i] >= x[i]){
