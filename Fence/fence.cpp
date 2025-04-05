@@ -11,5 +11,10 @@ int main(){
         cin >> h[i];
     }
 
+     int current_sum = 0;
+    for (int i = 0; i < k; i++) {
+        current_sum += h[i];
+    }
+
     return 0;
 }
