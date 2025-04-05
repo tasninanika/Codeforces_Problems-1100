@@ -26,5 +26,9 @@ int main(){
             min_index = i;
         }
 
+     }
+
+    cout << min_index + 1 << endl;
+
     return 0;
 }
