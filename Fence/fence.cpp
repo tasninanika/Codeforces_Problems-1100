@@ -21,6 +21,10 @@ int main(){
 
      for (int i = 1; i <= n - k; i++) {
         current_sum = current_sum - h[i - 1] + h[i + k - 1];
+         if (current_sum < min_sum) {
+            min_sum = current_sum;
+            min_index = i;
+        }
 
     return 0;
 }
