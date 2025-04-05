@@ -16,5 +16,8 @@ int main(){
         current_sum += h[i];
     }
 
+     int min_sum = current_sum;
+    int min_index = 0;
+
     return 0;
 }
