@@ -7,7 +7,7 @@ int main(){
 
     int price[n], quality[n];
     for(int i = 0; i < n; i++){
-
+        cin >> price[i] >> quality[i];
     }
 
     return 0;
