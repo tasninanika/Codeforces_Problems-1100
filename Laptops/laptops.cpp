@@ -22,6 +22,7 @@ int main(){
     for(int i = 1; i < n; i++){
         if(quality[i] < quality[i - 1]){
             cout << "Happy Alex" << endl;
+            return 0;
         }
     }
 
