@@ -14,6 +14,7 @@ int main(){
         for(int j = i + 1; j < n; j++){
             if(price[i] > price[j]){
                 swap(price[i], price[j]);
+                swap(quality[i], quality[j]);
             }
         }
     }
