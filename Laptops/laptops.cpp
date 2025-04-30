@@ -1,26 +1,20 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int n;
     cin >> n;
 
-    int price[n], quality[n];
-    for(int i = 0; i < n; i++){
-        cin >> price[i] >> quality[i];
+    pair<int, int> laptops[n];
+
+    for(int i = 0; i < n; i++) {
+        cin >> laptops[i].first >> laptops[i].second;
     }
 
-    for(int i = 0; i < n - 1; i++){
-        for(int j = i + 1; j < n; j++){
-            if(price[i] > price[j]){
-                swap(price[i], price[j]);
-                swap(quality[i], quality[j]);
-            }
-        }
-    }
+    sort(laptops, laptops + n);
 
-    for(int i = 1; i < n; i++){
-        if(quality[i] < quality[i - 1]){
+    for(int i = 1; i < n; i++) {
+        if(laptops[i].second < laptops[i - 1].second) {
             cout << "Happy Alex" << endl;
             return 0;
         }
