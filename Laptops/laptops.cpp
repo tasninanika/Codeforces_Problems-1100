@@ -26,5 +26,6 @@ int main(){
         }
     }
 
+    cout << "Poor Alex" << endl;
     return 0;
 }
