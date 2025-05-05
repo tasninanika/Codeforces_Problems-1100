@@ -13,6 +13,7 @@ int main(){
             cnt++;
         dp[i]= cnt;
     }
+    while(m--){
 
 
 
