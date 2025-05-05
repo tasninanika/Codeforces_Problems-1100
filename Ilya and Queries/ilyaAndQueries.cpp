@@ -16,7 +16,7 @@ int main(){
 
     while(m--){
         cin >> l >> r;
-        cout<<dp[r-1]-dp[l-1]<<endl;
+        cout << dp[r-1] - dp[l-1] << endl;
     }
 
 
