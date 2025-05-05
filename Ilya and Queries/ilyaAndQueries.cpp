@@ -9,8 +9,9 @@ int main(){
     cin>>s>>m;
 
     for(int i = 1; i < s.size(); i++){
-        if(s[i] == s[i-1])
+        if(s[i] == s[i-1]){
             c++;
+        }
         dp[i] = c;
     }
 
