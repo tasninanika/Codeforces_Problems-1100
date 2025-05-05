@@ -8,6 +8,8 @@ int main(){
     string s;
     cin>>s>>m;
 
+    for(int i=1;i<s.size();i++){
+
 
 
 
