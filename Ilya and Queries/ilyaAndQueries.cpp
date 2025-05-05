@@ -6,6 +6,7 @@ int main(){
 
     int dp[100005];
     string s;
+    cin>>s>>m;
 
 
 
