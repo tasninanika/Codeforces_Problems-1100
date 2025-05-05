@@ -14,6 +14,7 @@ int main(){
         dp[i]= cnt;
     }
     while(m--){
+        cin>>l>>r;
 
 
 
