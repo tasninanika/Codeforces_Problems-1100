@@ -12,6 +12,7 @@ int main(){
         if(s[i]==s[i-1])
             cnt++;
         dp[i]= cnt;
+    }
 
 
 
