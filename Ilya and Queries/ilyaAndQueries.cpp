@@ -13,10 +13,11 @@ int main(){
             cnt++;
         dp[i]= cnt;
     }
+
     while(m--){
-        cin>>l>>r;
+        cin >> l >> r;
         cout<<dp[r-1]-dp[l-1]<<endl;
-}
+    }
 
 
 
