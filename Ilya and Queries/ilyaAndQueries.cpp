@@ -6,7 +6,7 @@ int main(){
 
     int dp[100005];
     string s;
-    cin>>s>>m;
+    cin >> s >> m;
 
     for(int i = 1; i < s.size(); i++){
         if(s[i] == s[i-1]){
