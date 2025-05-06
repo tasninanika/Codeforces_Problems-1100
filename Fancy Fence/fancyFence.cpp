@@ -12,7 +12,7 @@ int main(){
         int r = 180 - a;
 
         if(r == 0){
-
+            cout << "NO" << endl;
         }
     }
 
