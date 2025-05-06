@@ -10,6 +10,10 @@ int main(){
         cin >> a;
 
         int r = 180 - a;
+
+        if(r == 0){
+
+        }
     }
 
 
