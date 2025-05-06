@@ -15,7 +15,7 @@ int main(){
             cout << "NO" << endl;
         }
         else if(360 % r == 0){
-
+            int n = 360 / r;
         }
     }
 
