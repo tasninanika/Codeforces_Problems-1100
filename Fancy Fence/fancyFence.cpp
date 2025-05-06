@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int a;
         cin >> a;
+
+        int r = 180 - a;
     }
 
 
