@@ -19,6 +19,9 @@ int main(){
             if(n >= 3){
                 cout << "YES" << endl;
             }
+            else{
+                cout << "NO" << endl;
+            }
         }
     }
 
