@@ -14,6 +14,9 @@ int main(){
         if(r == 0){
             cout << "NO" << endl;
         }
+        else if(360 % r == 0){
+
+        }
     }
 
 
