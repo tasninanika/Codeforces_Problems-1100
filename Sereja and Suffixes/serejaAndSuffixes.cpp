@@ -12,7 +12,9 @@ int main(){
         cin >> a[i];
     }
 
+    for(int i = n; i >= 1; i--){
 
+    }
 
 
     return 0;
