@@ -17,6 +17,7 @@ int main(){
         for(int j = t; j <= n; j++){
             s.insert(a[j]);
         }
+        cout << s.size() << endl;
     }
 
 
