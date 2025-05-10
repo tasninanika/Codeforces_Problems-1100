@@ -12,14 +12,7 @@ int main(){
         cin >> a[i];
     }
 
-    for(int i = 0; i < m; i++){
-        cin >> t;
-        set<int> s;
-        for(int j = t; j <= n; j++){
-            s.insert(a[j]);
-        }
-        cout << s.size() << endl;
-    }
+
 
 
     return 0;
