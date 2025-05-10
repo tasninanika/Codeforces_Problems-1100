@@ -15,7 +15,7 @@ int main(){
         cin >> t;
         set<int> s;
         for(int j = t; j <= n; j++){
-
+            s.insert(a[j]);
         }
     }
 
