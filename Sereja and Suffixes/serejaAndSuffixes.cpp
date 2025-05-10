@@ -1,11 +1,11 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
     int n, m, t;
     cin >> n >> m;
 
-    int a[100005];
+    int a[100005], d[100005] = {0};
 
     for(int i = 1; i <= n; i++){
         cin >> a[i];
