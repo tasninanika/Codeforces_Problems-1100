@@ -16,6 +16,7 @@ int main(){
         if(!v[a[i]){
             d[i]++;
         }
+        v[a[i] = true;
     }
 
 
