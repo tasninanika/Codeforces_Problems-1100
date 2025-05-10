@@ -23,6 +23,10 @@ int main(){
         d[i] += d[i + 1];
     }
 
+    for(int i = 0; i < m; i++){
+
+    }
+
 
     return 0;
 }
