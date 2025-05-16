@@ -8,6 +8,10 @@ int main(){
     while(t--){
         cin >> n >> k;
 
+        if(k * k > n){
+
+        }
+
     }
 
     return 0;
