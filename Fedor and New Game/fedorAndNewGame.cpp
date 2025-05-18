@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    int friends = 0;
+
     return 0;
 }
