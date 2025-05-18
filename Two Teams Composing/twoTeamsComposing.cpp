@@ -16,3 +16,4 @@ int main() {
             int x;
             cin >> x;
             freq[x]++;
+        }
