@@ -26,8 +26,9 @@ int main() {
 
         int unique = freq.size();
 
-        if (unique == max_freq)
+        if (unique == max_freq){
             cout << unique - 1 << endl;
+        }
         else
             cout << min(unique, max_freq) << endl;
     }
