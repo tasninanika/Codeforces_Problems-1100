@@ -14,6 +14,9 @@ int main(){
 
     for(int i = 0; i < m; i++){
         int t = 0;
+        for(int j = 0; j < n; j++){
+
+        }
     }
 
     return 0;
