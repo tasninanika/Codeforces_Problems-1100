@@ -21,6 +21,8 @@ int main(){
         c += t;
     }
 
+    cout << a - b << endl;
+
 
     return 0;
 }
