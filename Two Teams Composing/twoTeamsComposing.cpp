@@ -30,3 +30,4 @@ int main() {
             cout << unique - 1 << endl;
         else
             cout << min(unique, max_freq) << endl;
+    }
