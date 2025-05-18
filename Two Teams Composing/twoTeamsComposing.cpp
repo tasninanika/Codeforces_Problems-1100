@@ -21,3 +21,4 @@ int main() {
         int max_freq = 0;
         for (auto [num, count] : freq) {
             if (count > max_freq)
+                max_freq = count;
