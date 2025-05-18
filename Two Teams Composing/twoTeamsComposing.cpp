@@ -28,3 +28,4 @@ int main() {
 
         if (unique == max_freq)
             cout << unique - 1 << endl;
+        else
