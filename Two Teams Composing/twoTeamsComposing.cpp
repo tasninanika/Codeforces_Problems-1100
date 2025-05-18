@@ -27,3 +27,4 @@ int main() {
         int unique = freq.size();
 
         if (unique == max_freq)
+            cout << unique - 1 << endl;
