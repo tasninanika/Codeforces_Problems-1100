@@ -12,5 +12,9 @@ int main(){
 
     int friends = 0;
 
+    for(int i = 0; i < m; i++){
+
+    }
+
     return 0;
 }
