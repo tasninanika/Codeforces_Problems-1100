@@ -7,7 +7,7 @@ int main(){
     cin >> n >> m >> k;
 
     for(int i = 0; i < m + 1; i++){
-
+        cin >> a[i];
     }
 
     return 0;
