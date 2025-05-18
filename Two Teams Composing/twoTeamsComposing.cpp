@@ -25,3 +25,5 @@ int main() {
         }
 
         int unique = freq.size();
+
+        if (unique == max_freq)
