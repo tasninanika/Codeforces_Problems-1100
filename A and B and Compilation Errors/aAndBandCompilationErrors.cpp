@@ -16,6 +16,10 @@ int main(){
         b += t;
     }
 
+    for(int i = 0; i < n - 2; i++){
+
+    }
+
 
     return 0;
 }
