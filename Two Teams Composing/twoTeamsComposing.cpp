@@ -10,3 +10,5 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
+
+        map<int, int> freq;
