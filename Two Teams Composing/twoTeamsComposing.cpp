@@ -32,3 +32,4 @@ int main() {
             cout << min(unique, max_freq) << endl;
     }
     return 0;
+}
