@@ -20,7 +20,7 @@ int main(){
             }
         }
         if(t <= k){
-
+            friends++;
         }
     }
 
