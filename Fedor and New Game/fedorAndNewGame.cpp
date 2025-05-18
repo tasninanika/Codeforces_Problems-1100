@@ -19,6 +19,9 @@ int main(){
                 t++;
             }
         }
+        if(t <= k){
+
+        }
     }
 
     return 0;
