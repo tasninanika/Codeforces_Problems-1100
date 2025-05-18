@@ -12,3 +12,4 @@ int main() {
         cin >> n;
 
         map<int, int> freq;
+        for (int i = 0; i < n; i++) {
