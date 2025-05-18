@@ -15,7 +15,9 @@ int main(){
     for(int i = 0; i < m; i++){
         int t = 0;
         for(int j = 0; j < n; j++){
-            if(((a[i] >> j) & 1) != ((a[m] >> j) & 1))
+            if(((a[i] >> j) & 1) != ((a[m] >> j) & 1)){
+                t++;
+            }
         }
     }
 
