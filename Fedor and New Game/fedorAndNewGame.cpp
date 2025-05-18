@@ -13,7 +13,7 @@ int main(){
     int friends = 0;
 
     for(int i = 0; i < m; i++){
-
+        int t = 0;
     }
 
     return 0;
