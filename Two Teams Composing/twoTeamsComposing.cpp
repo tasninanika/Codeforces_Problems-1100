@@ -17,3 +17,5 @@ int main() {
             cin >> x;
             freq[x]++;
         }
+
+        int max_freq = 0;
