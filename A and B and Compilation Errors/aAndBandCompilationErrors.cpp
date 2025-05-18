@@ -22,6 +22,7 @@ int main(){
     }
 
     cout << a - b << endl;
+    cout << b - c << endl;
 
 
     return 0;
