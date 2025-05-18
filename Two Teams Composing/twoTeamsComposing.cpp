@@ -19,3 +19,4 @@ int main() {
         }
 
         int max_freq = 0;
+        for (auto [num, count] : freq) {
