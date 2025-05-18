@@ -24,5 +24,7 @@ int main(){
         }
     }
 
+    cout << friends << endl;
+
     return 0;
 }
