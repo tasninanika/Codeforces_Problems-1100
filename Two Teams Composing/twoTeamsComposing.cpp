@@ -13,3 +13,4 @@ int main() {
 
         map<int, int> freq;
         for (int i = 0; i < n; i++) {
+            int x;
