@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long x;
         cin >> x;
+
+        bool f = 0;
     }
 
 
