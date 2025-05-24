@@ -21,6 +21,18 @@ int main(){
                     found = 1;
                     break;
                 }
+             }
+
+            if (found){
+                break;
+            }
+        }
+         if (found){
+            cout << "YES" << endl;
+        }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
 
