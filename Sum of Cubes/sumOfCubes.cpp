@@ -16,6 +16,11 @@ int main(){
 
             for (long long b = 1; b * b * b <= x - a3; b++) {
                 long long b3 = b * b * b;
+
+                if (a3 + b3 == x) {
+                    found = 1;
+                    break;
+                }
     }
 
 
