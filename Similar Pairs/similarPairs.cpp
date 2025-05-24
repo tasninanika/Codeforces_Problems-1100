@@ -27,5 +27,9 @@ int main(){
             }
         }
 
+        if(even % 2 == 0 && odd % 2 == 0){
+            cout << "YES" << endl;
+        }
+
     return 0;
 }
