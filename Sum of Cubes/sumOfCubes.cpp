@@ -27,7 +27,7 @@ int main(){
                 break;
             }
         }
-         if (found){
+         if (f){
             cout << "YES" << endl;
         }
         else{
