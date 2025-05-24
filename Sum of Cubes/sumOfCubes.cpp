@@ -13,6 +13,9 @@ int main(){
 
         for (long long a = 1; a * a * a < x; a++) {
             long long a3 = a * a * a;
+
+            for (long long b = 1; b * b * b <= x - a3; b++) {
+                long long b3 = b * b * b;
     }
 
 
