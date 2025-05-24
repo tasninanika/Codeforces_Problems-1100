@@ -23,11 +23,11 @@ int main(){
                 }
              }
 
-            if (f){
+            if(f){
                 break;
             }
         }
-         if (f){
+         if(f){
             cout << "YES" << endl;
         }
         else{
