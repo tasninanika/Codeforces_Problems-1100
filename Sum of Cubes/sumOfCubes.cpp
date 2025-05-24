@@ -18,7 +18,7 @@ int main(){
                 long long b3 = b * b * b;
 
                 if (a3 + b3 == x) {
-                    found = 1;
+                    f = 1;
                     break;
                 }
              }
