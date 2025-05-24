@@ -18,5 +18,14 @@ int main(){
             }
         }
 
+        sort(a,a+n);
+
+        for(int i = 1; i < n; i++){
+            dif = abs(a[i] - a[i-1]);
+            if(dif == 1){
+                diff++;
+            }
+        }
+
     return 0;
 }
