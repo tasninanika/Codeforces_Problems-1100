@@ -23,6 +23,8 @@ int main(){
                 dp[i] = a[i];
             }
         }
+
+        long long maxScore = *max_element(dp.begin(), dp.end());
     }
 
 
