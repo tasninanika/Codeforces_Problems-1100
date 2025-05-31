@@ -20,7 +20,7 @@ int main(){
                 dp[i] = a[i] + dp[jump];
             }
             else{
-
+                dp[i] = a[i];
             }
         }
     }
