@@ -25,6 +25,7 @@ int main(){
         }
 
         long long maxScore = *max_element(dp.begin(), dp.end());
+        cout << maxScore << '\n';
     }
 
 
