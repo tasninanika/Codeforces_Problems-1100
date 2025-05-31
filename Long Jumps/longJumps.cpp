@@ -10,6 +10,10 @@ int main(){
         cin >> n;
 
         vector<long long> a(n), dp(n);
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
