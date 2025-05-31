@@ -15,7 +15,7 @@ int main(){
             cin >> a[i];
         }
         for(int i = n - 1; i >= 0; i--){
-
+            long long jump = i + a[i];
         }
     }
 
