@@ -19,6 +19,9 @@ int main(){
             if(jump < n){
                 dp[i] = a[i] + dp[jump];
             }
+            else{
+
+            }
         }
     }
 
