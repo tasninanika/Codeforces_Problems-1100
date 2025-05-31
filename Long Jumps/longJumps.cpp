@@ -24,8 +24,12 @@ int main(){
             }
         }
 
-        long long maxScore = *max_element(dp.begin(), dp.end());
-        cout << maxScore << endl;
+        long long maxScore = 0;
+        for (int i = 0; i < n; ++i) {
+            if (dp[i] > maxScore) {
+                maxScore = dp[i];
+            }
+        }        cout << maxScore << endl;
     }
 
 
