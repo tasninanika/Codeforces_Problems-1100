@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<int> arr(n);
+        long long res = 0, c = 0;
     }
 
 
