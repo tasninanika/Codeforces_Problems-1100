@@ -16,7 +16,7 @@ int main(){
             cin >> arr[i];
             res += abs(arr[i]);
             if(arr[i] < 0){
-
+                c++;
             }
         }
     }
