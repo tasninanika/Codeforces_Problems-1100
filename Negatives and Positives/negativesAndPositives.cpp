@@ -25,10 +25,11 @@ int main(){
                 arr[i] = abs(arr[i]);
             }
         }
-        if(!(c % 2)){
+
+        if(c % 2 == 0){
             cout << res << endl;
-            continue;
         }
+
     }
 
 
