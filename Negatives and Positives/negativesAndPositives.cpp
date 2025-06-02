@@ -30,7 +30,7 @@ int main(){
             cout << res << endl;
         }
         else{
-
+            int x = arr[0];
         }
 
     }
