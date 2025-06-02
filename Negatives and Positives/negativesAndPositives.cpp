@@ -29,6 +29,9 @@ int main(){
         if(c % 2 == 0){
             cout << res << endl;
         }
+        else{
+
+        }
 
     }
 
