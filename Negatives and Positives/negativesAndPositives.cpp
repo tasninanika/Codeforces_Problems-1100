@@ -27,6 +27,7 @@ int main(){
         }
         if(!(c % 2)){
             cout << res << endl;
+            continue;
         }
     }
 
