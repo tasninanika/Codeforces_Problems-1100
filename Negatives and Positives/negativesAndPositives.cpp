@@ -36,6 +36,7 @@ int main(){
                     x = arr[i];
                 }
             }
+            cout << res - 2 * x << endl;
         }
 
     }
