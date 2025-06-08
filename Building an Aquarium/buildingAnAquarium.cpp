@@ -21,6 +21,8 @@ int main(){
 
         while(low <= high){
             long long mid = low + (high - low) / 2;
+
+            long long total = 0;
         }
     }
 
