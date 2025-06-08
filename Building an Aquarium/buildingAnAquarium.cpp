@@ -26,7 +26,7 @@ int main(){
 
             for(int i = 0; i < n; i++){
                 if(w[i] < mid){
-
+                    total += mid - w[i];
                 }
             }
         }
