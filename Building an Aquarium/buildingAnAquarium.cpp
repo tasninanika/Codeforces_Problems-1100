@@ -37,6 +37,9 @@ int main(){
                 result = mid;
                 low = mid + 1;
             }
+            else{
+
+            }
         }
     }
 
