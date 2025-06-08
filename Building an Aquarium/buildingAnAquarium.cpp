@@ -25,7 +25,9 @@ int main(){
             long long total = 0;
 
             for(int i = 0; i < n; i++){
+                if(w[i] < mid){
 
+                }
             }
         }
     }
