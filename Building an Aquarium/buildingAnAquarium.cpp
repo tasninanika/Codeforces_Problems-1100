@@ -20,7 +20,7 @@ int main(){
         long long result = -1;
 
         while(low <= high){
-
+            long long mid = low + (high - low) / 2;
         }
     }
 
