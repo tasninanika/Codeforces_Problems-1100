@@ -16,7 +16,7 @@ int main(){
         }
 
         long long low = 1;
-        long long = 2e9;
+        long long high = 2e9;
         long long result = -1;
 
         while(low <= high){
