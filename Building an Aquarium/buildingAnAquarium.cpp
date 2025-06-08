@@ -34,7 +34,7 @@ int main(){
             }
 
             if(total <= x){
-
+                result = mid;
             }
         }
     }
