@@ -29,7 +29,7 @@ int main(){
                     total += mid - w[i];
                 }
                 if(total > x){
-
+                    break;
                 }
             }
         }
