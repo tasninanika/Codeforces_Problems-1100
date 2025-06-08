@@ -28,6 +28,9 @@ int main(){
                 if(w[i] < mid){
                     total += mid - w[i];
                 }
+                if(total > x){
+
+                }
             }
         }
     }
