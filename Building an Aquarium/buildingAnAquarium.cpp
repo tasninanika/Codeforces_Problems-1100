@@ -23,6 +23,10 @@ int main(){
             long long mid = low + (high - low) / 2;
 
             long long total = 0;
+
+            for(int i = 0; i < n; i++){
+
+            }
         }
     }
 
