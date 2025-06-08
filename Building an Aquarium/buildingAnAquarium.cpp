@@ -32,6 +32,10 @@ int main(){
                     break;
                 }
             }
+
+            if(total <= x){
+
+            }
         }
     }
 
