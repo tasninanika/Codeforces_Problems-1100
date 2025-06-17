@@ -18,6 +18,7 @@ int main(){
             a -= 1;
             if(a < 0){
                 ans = "NO";
+                break;
             }
         }
     }
