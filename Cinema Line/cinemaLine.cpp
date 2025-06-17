@@ -9,7 +9,7 @@ int main(){
     string ans = "YES";
 
     for(int i = 0; i < n; i++){
-
+        cin >> t;
     }
 
 
