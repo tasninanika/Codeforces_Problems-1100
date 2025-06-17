@@ -30,7 +30,7 @@ int main(){
                 a -= 3;
             }
             else{
-
+                ans = "NO";
             }
         }
     }
