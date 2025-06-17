@@ -11,7 +11,7 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> t;
         if(t == 25){
-
+            a += 1;
         }
     }
 
