@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     int a = 0, b = 0;
+    string ans = "YES";
 
 
     return 0;
