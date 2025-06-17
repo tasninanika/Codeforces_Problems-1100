@@ -29,6 +29,9 @@ int main(){
             else if(a >= 3){
                 a -= 3;
             }
+            else{
+
+            }
         }
     }
 
