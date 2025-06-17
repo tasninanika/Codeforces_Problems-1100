@@ -31,6 +31,7 @@ int main(){
             }
             else{
                 ans = "NO";
+                break;
             }
         }
     }
