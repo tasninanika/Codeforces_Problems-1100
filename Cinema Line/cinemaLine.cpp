@@ -16,6 +16,9 @@ int main(){
         else if(t == 50){
             b += 1;
             a -= 1;
+            if(a < 0){
+
+            }
         }
     }
 
