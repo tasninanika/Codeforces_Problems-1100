@@ -17,7 +17,7 @@ int main(){
 
         int i = -1, j = n;
         int ans = 0;
-        int cnt = 0;
+        int c = 0;
         long long sa = 0, sb = 0;
 
         while(i < j)
@@ -26,18 +26,18 @@ int main(){
             {
                 ans = cnt;
                 sa = arr[++i];
-                cnt = 1;
+                c = 1;
                 sb = 0;
             }
             else if(sa < sb)
             {
                 sa += arr[++i];
-                cnt++;
+                c++;
             }
             else
             {
                 sb += arr[--j];
-                cnt++;
+                c++;
             }
         }
         cout << ans << endl;
