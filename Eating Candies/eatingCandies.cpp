@@ -24,7 +24,7 @@ int main(){
         {
             if(sa == sb)
             {
-                ans = cnt;
+                ans = c;
                 sa = arr[++i];
                 c = 1;
                 sb = 0;
