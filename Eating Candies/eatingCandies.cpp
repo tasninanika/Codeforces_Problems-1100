@@ -39,7 +39,7 @@ int main(){
             else
             {
                 sb += arr[j-1];
-                j__;
+                j--;
                 c++;
             }
         }
