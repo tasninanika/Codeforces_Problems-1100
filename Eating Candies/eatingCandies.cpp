@@ -24,19 +24,22 @@ int main(){
         {
             if(sa == sb)
             {
-                ans = c;
-                sa = arr[++i];
+                ans += c;
+                sa = arr[i+1];
                 c = 1;
+                i++;
                 sb = 0;
             }
             else if(sa < sb)
             {
-                sa += arr[++i];
+                sa += arr[i+1];
+                i++;
                 c++;
             }
             else
             {
-                sb += arr[--j];
+                sb += arr[j-1];
+                j__;
                 c++;
             }
         }
