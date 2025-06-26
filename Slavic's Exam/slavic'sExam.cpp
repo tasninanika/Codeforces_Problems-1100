@@ -20,7 +20,7 @@ int main(){
                 j++;
             }
             if(j == t.size()){
-
+                break;
             }
         }
     }
