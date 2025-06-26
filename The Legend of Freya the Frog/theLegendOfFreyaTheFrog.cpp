@@ -10,6 +10,7 @@ int main(){
         cin >> x >> y >> k;
 
         long long a = x / k;
+        long long b = y / k;
     }
 
     return 0;
