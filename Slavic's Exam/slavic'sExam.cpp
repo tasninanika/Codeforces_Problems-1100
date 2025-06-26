@@ -28,7 +28,9 @@ int main(){
         if(j == t.size()){
             cout << "YES" << endl;
             for(int i = 0; i < s.size(); i++){
+                if(s[i] == '?'){
 
+                }
             }
         }
     }
