@@ -22,6 +22,9 @@ int main(){
         if(b > a){
             cout << 2 * b << endl;
         }
+        else if(a > b){
+
+        }
     }
 
     return 0;
