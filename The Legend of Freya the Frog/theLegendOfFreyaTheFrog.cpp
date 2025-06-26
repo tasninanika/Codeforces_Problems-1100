@@ -23,7 +23,7 @@ int main(){
             cout << 2 * b << endl;
         }
         else if(a > b){
-
+            cout << 2 * b + (2 * (a - b) - 1) << endl;
         }
     }
 
