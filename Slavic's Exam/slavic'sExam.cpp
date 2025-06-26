@@ -16,7 +16,7 @@ int main(){
                 j++;
             }
             else if(s[i] == '?'){
-
+                s[i] = t[j];
             }
         }
     }
