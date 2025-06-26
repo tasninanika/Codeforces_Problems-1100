@@ -20,7 +20,7 @@ int main(){
         }
 
         if(b > a){
-
+            cout << 2 * b << endl;
         }
     }
 
