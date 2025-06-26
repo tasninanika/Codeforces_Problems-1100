@@ -35,6 +35,7 @@ int main(){
                     cout << s[i];
                 }
             }
+            cout << endl;
         }
         else{
             cout << "NO" << endl;
