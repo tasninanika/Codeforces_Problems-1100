@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long x, y, k;
         cin >> x >> y >> k;
+
+        long long a = x / k;
     }
 
     return 0;
