@@ -32,7 +32,7 @@ int main(){
                     cout << 'a';
                 }
                 else{
-
+                    cout << s[i];
                 }
             }
         }
