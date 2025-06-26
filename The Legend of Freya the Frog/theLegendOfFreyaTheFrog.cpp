@@ -11,6 +11,10 @@ int main(){
 
         long long a = x / k;
         long long b = y / k;
+
+        if(x % k > 0){
+
+        }
     }
 
     return 0;
