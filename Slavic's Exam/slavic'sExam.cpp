@@ -10,6 +10,10 @@ int main(){
         cin >> s >> t;
 
         int j = 0;
+
+        for(int i = 0; i < s.size(); i++){
+
+        }
     }
 
     return 0;
