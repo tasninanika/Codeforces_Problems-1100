@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-    long long t;
-    cin >> t;
+    long long T;
+    cin >> T;
 
     while(t--){
-
+        string s, t;
     }
 
     return 0;
