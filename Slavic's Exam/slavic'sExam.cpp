@@ -26,7 +26,7 @@ int main(){
         }
 
         if(j == t.size()){
-
+            cout << "YES" << endl;
         }
     }
 
