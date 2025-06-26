@@ -19,9 +19,14 @@ int main(){
                 s[i] = t[j];
                 j++;
             }
+
             if(j == t.size()){
                 break;
             }
+        }
+
+        if(j == t.size()){
+
         }
     }
 
