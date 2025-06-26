@@ -26,7 +26,7 @@ int main(){
             cout << 2 * b + (2 * (a - b) - 1) << endl;
         }
         else{
-
+            cout << 2 * a << endl;
         }
     }
 
