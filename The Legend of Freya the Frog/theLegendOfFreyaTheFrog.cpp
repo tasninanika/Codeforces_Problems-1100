@@ -15,6 +15,8 @@ int main(){
         if(x % k > 0){
             a++;
         }
+        id(y % k > 0){
+        }
     }
 
     return 0;
