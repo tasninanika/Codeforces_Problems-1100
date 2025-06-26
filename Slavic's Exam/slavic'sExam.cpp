@@ -31,6 +31,9 @@ int main(){
                 if(s[i] == '?'){
                     cout << 'a';
                 }
+                else{
+
+                }
             }
         }
     }
