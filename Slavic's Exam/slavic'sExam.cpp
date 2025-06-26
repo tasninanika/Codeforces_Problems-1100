@@ -19,6 +19,9 @@ int main(){
                 s[i] = t[j];
                 j++;
             }
+            if(j == t.size()){
+
+            }
         }
     }
 
