@@ -25,6 +25,9 @@ int main(){
         else if(a > b){
             cout << 2 * b + (2 * (a - b) - 1) << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
