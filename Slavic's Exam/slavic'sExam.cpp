@@ -8,6 +8,8 @@ int main(){
     while(t--){
         string s, t;
         cin >> s >> t;
+
+        int j = 0;
     }
 
     return 0;
