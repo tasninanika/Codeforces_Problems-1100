@@ -13,7 +13,7 @@ int main(){
         long long b = y / k;
 
         if(x % k > 0){
-
+            a++;
         }
     }
 
