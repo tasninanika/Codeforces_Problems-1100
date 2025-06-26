@@ -15,6 +15,9 @@ int main(){
             if(s[i] = t[j]){
                 j++;
             }
+            else if(s[i] == '?'){
+
+            }
         }
     }
 
