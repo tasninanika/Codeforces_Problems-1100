@@ -18,6 +18,10 @@ int main(){
         if(y % k > 0){
             b++;
         }
+
+        if(b > a){
+
+        }
     }
 
     return 0;
