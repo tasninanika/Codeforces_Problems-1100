@@ -15,7 +15,8 @@ int main(){
             c++;
 
             if(s[i] == 'R'){
-
+                pos = i;
+                break;
             }
         }
 
