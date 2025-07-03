@@ -17,6 +17,7 @@ int main(){
         sort(a.begin(), a.end());
 
         vector<long long> sum(n);
+        sum[0] = a[0];
     }
 
     return 0;
