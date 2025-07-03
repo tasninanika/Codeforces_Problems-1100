@@ -24,7 +24,7 @@ int main(){
         c = 0;
         for(ll i = 0; i <= pos; i++){
             if(s[i] == 'R'){
-
+                c++;
             }
         }
 
