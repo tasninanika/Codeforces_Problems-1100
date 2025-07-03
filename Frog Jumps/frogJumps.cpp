@@ -25,6 +25,7 @@ int main(){
         for(ll i = 0; i <= pos; i++){
             if(s[i] == 'R'){
                 c++;
+                ans = max(ans, c);
             }
         }
 
