@@ -9,12 +9,12 @@ int main(){
         int n, q;
         cin >> n >> q;
 
-        vector<int> a(n);
+        int a[n];
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
 
-        sort(a.begin(), a.end());
+        sort(a, a + n, greater<int>());
 
         vector<long long> sum(n);
         sum[0] = a[0];
