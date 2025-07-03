@@ -22,6 +22,9 @@ int main(){
 
         ll ans = c;
         c = 0;
+        for(ll i = 0; i <= pos; i++){
+
+        }
 
     }
 
