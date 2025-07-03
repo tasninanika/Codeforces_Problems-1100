@@ -21,6 +21,7 @@ int main(){
         }
 
         ll ans = c;
+        c = 0;
 
     }
 
