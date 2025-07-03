@@ -26,6 +26,7 @@ int main(){
             if(s[i] == 'R'){
                 c++;
                 ans = max(ans, c);
+                c = 0;
             }
         }
 
