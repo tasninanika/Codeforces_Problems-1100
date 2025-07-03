@@ -25,6 +25,7 @@ int main(){
 
         while(q--){
             int x;
+            cin >> x;
         }
     }
 
