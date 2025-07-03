@@ -24,7 +24,7 @@ int main(){
         }
 
         while(q--){
-
+            int x;
         }
     }
 
