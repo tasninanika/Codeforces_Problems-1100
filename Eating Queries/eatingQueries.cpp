@@ -33,7 +33,7 @@ int main(){
                 cout << -1 << endl;
             }
             else{
-
+                cout << (y + 1) << endl;
             }
         }
     }
