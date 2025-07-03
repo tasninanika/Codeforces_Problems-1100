@@ -32,6 +32,9 @@ int main(){
             if(y == n){
                 cout << -1 << endl;
             }
+            else{
+
+            }
         }
     }
 
