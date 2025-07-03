@@ -30,7 +30,7 @@ int main(){
             int y = lower_bound(sum.begin(), sum.end(), x) - sum.begin();
 
             if(y == n){
-
+                cout << -1 << endl;
             }
         }
     }
