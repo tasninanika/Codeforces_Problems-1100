@@ -11,6 +11,9 @@ int main(){
         cin >> s;
 
         ll c = 0, pos = -1;
+        for(ll i = s.size() - 1; i >= 0; i--){
+
+        }
 
     }
 
