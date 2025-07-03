@@ -28,6 +28,10 @@ int main(){
             cin >> x;
 
             int y = lower_bound(sum.begin(), sum.end(), x) - sum.begin();
+
+            if(y == n){
+
+            }
         }
     }
 
