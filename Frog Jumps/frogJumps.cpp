@@ -28,6 +28,9 @@ int main(){
                 ans = max(ans, c);
                 c = 0;
             }
+            else{
+
+            }
         }
 
     }
