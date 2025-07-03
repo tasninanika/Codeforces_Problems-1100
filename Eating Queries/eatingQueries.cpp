@@ -18,6 +18,10 @@ int main(){
 
         vector<long long> sum(n);
         sum[0] = a[0];
+
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
