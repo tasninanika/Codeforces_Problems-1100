@@ -1,44 +1,28 @@
 #include<iostream>
 using namespace std;
-#define ll long long
 
 int main(){
     int t;
     cin >> t;
 
     while(t--){
-        string s;
-        cin >> s;
+        string str;
+        cin >> str;
 
-        ll c = 0, pos = -1;
-        for(ll i = s.size() - 1; i >= 0; i--){
-            c++;
+        int last = -1;
+        int max_gap = 0;
 
-            if(s[i] == 'R'){
-                pos = i;
-                break;
+        for(int i = 0; i < str.length(); i++){
+            if(str[i] == 'R'){
+                max_gap = max(max_gap, i - last);
+                last = i;
             }
         }
 
-        ll ans = c;
-        c = 0;
-        for(ll i = 0; i <= pos; i++){
-            if(s[i] == 'R'){
-                c++;
-                ans = max(ans, c);
-                c = 0;
-            }
-            else{
-                c++;
-            }
-        }
+        max_gap = max(max_gap, (int)str.length() - last);
 
-        if(pos == -1){
-            cout << ans << endl;
-        }
-
+        cout << max_gap << endl;
     }
-
 
     return 0;
 }
