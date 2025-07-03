@@ -20,6 +20,8 @@ int main(){
             }
         }
 
+        ll ans = c;
+
     }
 
 
