@@ -29,7 +29,7 @@ int main(){
                 c = 0;
             }
             else{
-
+                c++;
             }
         }
 
