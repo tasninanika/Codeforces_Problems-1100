@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+#define ll long long
 
 int main(){
     int t;
@@ -8,6 +9,9 @@ int main(){
     while(t--){
         string s;
         cin >> s;
+
+        ll c = 0, pos = -1;
+
     }
 
 
