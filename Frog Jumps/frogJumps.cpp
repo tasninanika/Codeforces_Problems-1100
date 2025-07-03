@@ -34,7 +34,7 @@ int main(){
         }
 
         if(pos == -1){
-
+            cout << ans << endl;
         }
 
     }
