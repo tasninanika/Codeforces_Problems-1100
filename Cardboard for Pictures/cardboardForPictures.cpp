@@ -12,6 +12,10 @@ int main(){
         vector<int> v(n);
         int sumSquares = 0;
         int totalSum = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
