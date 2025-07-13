@@ -23,6 +23,8 @@ int main(){
         c /= (4 * n);
 
         totalSum /= (2 * n);
+
+        long long result = (long long) sqrt((long long)totalSum * totalSum + c) - totalSum;
     }
 
     return 0;
