@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, c;
         cin >> n >> c;
+
+        vector<int> v(n);
     }
 
     return 0;
