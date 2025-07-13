@@ -21,6 +21,8 @@ int main(){
 
         c -= sumSquares;
         c /= (4 * n);
+
+        totalSum /= (2 * n);
     }
 
     return 0;
