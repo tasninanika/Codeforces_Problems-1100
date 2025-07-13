@@ -20,6 +20,7 @@ int main(){
             for(int j = 0; j < n; j++){
                 if(__gcd(a[i], a[j]) == 1){
                     int indexSum = (i + 1) + (j + 1);
+                    maxSum = max(maxSum, indexSum);
                 }
             }
         }
