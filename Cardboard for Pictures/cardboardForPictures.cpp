@@ -11,6 +11,7 @@ int main(){
 
         vector<int> v(n);
         int sumSquares = 0;
+        int totalSum = 0;
     }
 
     return 0;
