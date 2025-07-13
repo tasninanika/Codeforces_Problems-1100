@@ -25,6 +25,8 @@ int main(){
         totalSum /= (2 * n);
 
         long long result = (long long) sqrt((long long)totalSum * totalSum + c) - totalSum;
+
+        cout << result << endl;
     }
 
     return 0;
