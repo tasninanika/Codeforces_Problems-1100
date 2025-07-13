@@ -9,22 +9,25 @@ int main(){
         int n;
         cin >> n;
 
-        vector<int> a(n);
-        for(int i = 0; i < n; i++){
-            cin >> a[i];
+        unordered_map<int, int> idx;
+
+        for(int i = 1; i <= n; i++){
+            int x;
+            cin >> x;
+            idx[x] = i;
         }
 
-        int maxSum = -1;
+        int ans = -1;
 
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                if(__gcd(a[i], a[j]) == 1){
-                    int indexSum = (i + 1) + (j + 1);
-                    maxSum = max(maxSum, indexSum);
+        for(auto it1 : idx){
+            for(auto it2 : idx){
+                if(__gcd(it1.first, it2.first) == 1){
+                    ans = max(ans, it1.second + it2.second);
                 }
             }
         }
-        cout << maxSum << endl;
+
+        cout << ans << endl;
     }
 
     return 0;
