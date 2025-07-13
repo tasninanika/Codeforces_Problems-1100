@@ -19,7 +19,7 @@ int main(){
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
                 if(__gcd(a[i], a[j]) == 1){
-
+                    int indexSum = (i + 1) + (j + 1);
                 }
             }
         }
