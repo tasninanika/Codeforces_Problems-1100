@@ -6,12 +6,13 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n, c;
+        int n;
+        long long c;
         cin >> n >> c;
 
-        vector<int> v(n);
-        int sumSquares = 0;
-        int totalSum = 0;
+        vector<long long> v(n);
+        long long sumSquares = 0;
+        long long totalSum = 0;
 
         for(int i = 0; i < n; i++){
             cin >> v[i];
