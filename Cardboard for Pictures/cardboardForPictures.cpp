@@ -18,6 +18,8 @@ int main(){
             sumSquares += v[i];
             totalSum += v[i];
         }
+
+        c -= sumSquares;
     }
 
     return 0;
