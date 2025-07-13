@@ -20,6 +20,7 @@ int main(){
         }
 
         c -= sumSquares;
+        c /= (4 * n);
     }
 
     return 0;
