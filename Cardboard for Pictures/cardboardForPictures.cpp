@@ -10,6 +10,7 @@ int main(){
         cin >> n >> c;
 
         vector<int> v(n);
+        int sumSquares = 0;
     }
 
     return 0;
