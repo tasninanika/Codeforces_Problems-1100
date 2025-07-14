@@ -17,6 +17,8 @@ int main(){
             uniqueChars.insert(s[i]);
             c += uniqueChars.size();
         }
+
+        cout << c << endl;
     }
 
 
