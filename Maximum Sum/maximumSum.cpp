@@ -21,7 +21,7 @@ int main(){
         ll sum = 0;
         ll b[n];
         for(int i = 0; i < n; i++){
-
+            sum += a[i];
         }
     }
 
