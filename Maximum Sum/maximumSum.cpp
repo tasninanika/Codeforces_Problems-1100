@@ -14,6 +14,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        ll maximum = 0;
     }
 
     return 0;
