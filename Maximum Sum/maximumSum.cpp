@@ -19,6 +19,7 @@ int main(){
         sort(a, a+n);
 
         ll sum = 0;
+        ll b[n];
     }
 
     return 0;
