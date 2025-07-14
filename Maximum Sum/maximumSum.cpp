@@ -16,6 +16,7 @@ int main(){
         }
 
         ll maximum = 0;
+        sort(a, a+n);
     }
 
     return 0;
