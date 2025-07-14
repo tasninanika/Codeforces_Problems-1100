@@ -24,6 +24,10 @@ int main(){
             sum += a[i];
             b[i+1] = b[i] + a[i];
         }
+
+        for(int i = 0; i <= k; i++){
+
+        }
     }
 
     return 0;
