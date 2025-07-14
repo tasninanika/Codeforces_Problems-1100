@@ -11,6 +11,7 @@ int main(){
         cin >> n >> s;
 
         set<char> uniqueChars;
+        int c = 0;
     }
 
 
