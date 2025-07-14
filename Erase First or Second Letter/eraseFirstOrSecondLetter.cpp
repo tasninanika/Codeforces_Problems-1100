@@ -15,6 +15,7 @@ int main(){
 
         for(int i = 0; i < s.size(); i++){
             uniqueChars.insert(s[i]);
+            c += uniqueChars.size();
         }
     }
 
