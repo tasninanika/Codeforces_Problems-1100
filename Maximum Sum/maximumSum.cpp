@@ -22,6 +22,7 @@ int main(){
         ll b[n];
         for(int i = 0; i < n; i++){
             sum += a[i];
+            b[i+1] = b[i] + a[i];
         }
     }
 
