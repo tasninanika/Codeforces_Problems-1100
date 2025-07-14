@@ -26,7 +26,7 @@ int main(){
         }
 
         for(int i = 0; i <= k; i++){
-
+            maximum = max(maximum, b[n-i] - b[2 * (k - i]);
         }
     }
 
