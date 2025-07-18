@@ -10,6 +10,8 @@ int main(){
         long long c;
         cin >> n >> c;
 
+        vector<long long> a(n);
+
     }
 
     return 0;
