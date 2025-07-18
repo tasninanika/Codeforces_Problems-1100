@@ -7,8 +7,8 @@ int main(){
 
     while(t--){
         int n;
-        long long c;
-        cin >> n >> c;
+        long long x;
+        cin >> n >> x;
 
         vector<long long> a(n);
         for(int i = 0; i < n; i++){
@@ -23,8 +23,8 @@ int main(){
 
         int c = 0;
         for(int i = 0; i < n; i++){
-            if(c >= costs[i]){
-                c -= costs[i];
+            if(x >= costs[i]){
+                x -= costs[i];
                 c++;
             }
             else{
