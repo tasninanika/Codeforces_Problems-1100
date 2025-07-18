@@ -27,6 +27,9 @@ int main(){
                 c -= costs[i];
                 c++;
             }
+            else{
+
+            }
         }
 
     }
