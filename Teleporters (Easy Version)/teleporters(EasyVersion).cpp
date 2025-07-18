@@ -16,6 +16,9 @@ int main(){
         }
 
         vector<long long> costs;
+        for(int i = 0; i < n; i++){
+
+        }
 
     }
 
