@@ -31,6 +31,7 @@ int main(){
                 break;
             }
         }
+        cout << c << endl;
 
     }
 
