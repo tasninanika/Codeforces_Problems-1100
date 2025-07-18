@@ -25,6 +25,7 @@ int main(){
         for(int i = 0; i < n; i++){
             if(c >= costs[i]){
                 c -= costs[i];
+                c++;
             }
         }
 
