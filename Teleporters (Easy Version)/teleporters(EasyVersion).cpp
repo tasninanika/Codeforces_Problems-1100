@@ -19,6 +19,7 @@ int main(){
         for(int i = 0; i < n; i++){
             costs.push_back(a[i] + (i + 1));
         }
+        sort(costs.begin(), costs.end());
 
     }
 
