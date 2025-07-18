@@ -15,6 +15,8 @@ int main(){
             cin >> a[i];
         }
 
+        vector<long long> costs;
+
     }
 
     return 0;
