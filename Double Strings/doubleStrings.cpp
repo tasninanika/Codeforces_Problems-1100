@@ -26,7 +26,7 @@ int main(){
                 string right = word.substr(j);
 
                 if(mp[left] && mp[right]){
-
+                    found = true;
                 }
             }
         }
