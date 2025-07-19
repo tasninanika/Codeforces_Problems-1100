@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        vector<string> words(n);
     }
 
     return 0;
