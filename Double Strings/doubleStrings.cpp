@@ -22,7 +22,7 @@ int main(){
             string word = words[i];
 
             for(int j = 1; j < (int)word.size(); j++){
-
+                string left = word.substr(0, j);
             }
         }
     }
