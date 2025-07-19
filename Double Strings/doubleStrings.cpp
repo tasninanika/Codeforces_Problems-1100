@@ -14,6 +14,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             cin >> words[i];
+            mp[words[i] = 1;
         }
     }
 
