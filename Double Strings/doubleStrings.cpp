@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<string> words(n);
+        map<string, int> mp;
     }
 
     return 0;
