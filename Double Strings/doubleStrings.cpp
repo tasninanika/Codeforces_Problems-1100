@@ -31,6 +31,9 @@ int main(){
                     break;
                 }
             }
+            if(!found){
+                cout << 0;
+            }
         }
     }
 
