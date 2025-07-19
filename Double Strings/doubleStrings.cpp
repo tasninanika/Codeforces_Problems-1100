@@ -19,6 +19,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             bool found = false;
+            string word = words[i];
         }
     }
 
