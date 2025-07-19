@@ -28,6 +28,7 @@ int main(){
                 if(mp[left] && mp[right]){
                     found = true;
                     cout << 1;
+                    break;
                 }
             }
         }
