@@ -24,6 +24,10 @@ int main(){
             for(int j = 1; j < (int)word.size(); j++){
                 string left = word.substr(0, j);
                 string right = word.substr(j);
+
+                if(mp[left] && mp[right]){
+
+                }
             }
         }
     }
