@@ -1,46 +1,51 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
-int main(){
+int main() {
     int t;
-    cin >> t;
-
+    cin>>t;
     while(t--){
         int n;
-        cin >> n;
-
-        vector<long long> a(n);
-        for (int i = 0; i < n; i++){
-            cin >> a[i];
+        cin>>n;
+        vector<ll>v(n);
+        for(int i=0;i<n;i++){
+            cin>>v[i];
         }
-
-        long long ans = 0;
-
-        {
-            bool ok = true;
-            int prevColor = (a[0] % a[0] == 0);
-            for (int i = 1; i < n; i++) {
-                int cur = (a[i] % a[0] == 0);
-                if (cur == prevColor) { ok = false; break; }
-                prevColor = cur;
+        ll gcd1=0,gcd2=0;
+        for(int i=0;i<n;i++){
+            if(i&1){
+                gcd2 = __gcd(gcd2,v[i]);
             }
-            if (ok) ans = a[0];
-        }
-
-        if (ans == 0) {
-            bool ok = true;
-            int prevColor = (a[0] % a[1] == 0);
-            for (int i = 1; i < n; i++) {
-                int cur = (a[i] % a[1] == 0);
-                if (cur == prevColor) { ok = false; break; }
-                prevColor = cur;
+            else{
+                gcd1 = __gcd(gcd1,v[i]);
             }
-            if (ok) ans = a[1];
+        }
+        bool flag=true;
+        for(int i=1;i<n;i+=2){
+            if(v[i]%gcd1==0){
+                flag=false;
+                break;
+            }
+        }
+        if(flag){
+            cout<<gcd1<<endl;
+            continue;
+        }
+        flag=true;
+        for(int i=0;i<n;i+=2){
+            if(v[i]%gcd2==0){
+                flag=false;
+                break;
+            }
+        }
+        if(flag){
+            cout<<gcd2<<endl;
+        }
+        else{
+            cout<<0<<endl;
         }
 
-        cout << ans << endl;
     }
 
-    return 0;
 }
-
