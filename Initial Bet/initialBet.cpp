@@ -6,6 +6,10 @@ int main(){
 
     while(cin >> a >> b >> c >> d >> e){
         x = a + b + c + d + e;
+
+        if(x < 5){
+
+        }
     }
 
 
