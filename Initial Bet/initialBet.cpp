@@ -14,7 +14,7 @@ int main(){
             cout << x / 5 << endl;
         }
         else{
-
+            cout << "-1" << endl;
         }
     }
 
