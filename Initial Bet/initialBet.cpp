@@ -8,7 +8,7 @@ int main(){
         x = a + b + c + d + e;
 
         if(x < 5){
-
+            cout << "-1" << endl;
         }
     }
 
