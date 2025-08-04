@@ -13,6 +13,9 @@ int main(){
         else if(x % 5 == 0){
             cout << x / 5 << endl;
         }
+        else{
+
+        }
     }
 
 
