@@ -30,7 +30,7 @@ int main(){
             pq.pop();
         }
         if(ok == 1){
-
+            cout << "YES" << endl;
         }
     }
 
