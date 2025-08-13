@@ -24,7 +24,7 @@ int main(){
                 pq.push(x / 2);
             }
             if(pq.top() != n - i){
-
+                ok = 0;
             }
         }
     }
