@@ -20,6 +20,7 @@ int main(){
         for(int i = 0; i < n; i++){
             while(pq.top() > n - i){
                 int x = pq.top();
+                pq.pop();
             }
         }
     }
