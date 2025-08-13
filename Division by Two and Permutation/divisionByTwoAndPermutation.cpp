@@ -23,6 +23,9 @@ int main(){
                 pq.pop();
                 pq.push(x / 2);
             }
+            if(pq.top() != n - i){
+
+            }
         }
     }
 
