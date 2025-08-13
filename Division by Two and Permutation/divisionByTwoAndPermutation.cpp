@@ -25,6 +25,7 @@ int main(){
             }
             if(pq.top() != n - i){
                 ok = 0;
+                break;
             }
         }
     }
