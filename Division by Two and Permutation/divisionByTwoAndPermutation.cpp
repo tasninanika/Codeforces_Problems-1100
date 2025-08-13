@@ -32,6 +32,9 @@ int main(){
         if(ok == 1){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
