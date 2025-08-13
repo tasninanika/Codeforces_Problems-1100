@@ -27,6 +27,7 @@ int main(){
                 ok = 0;
                 break;
             }
+            pq.pop();
         }
     }
 
