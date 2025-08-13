@@ -29,6 +29,9 @@ int main(){
             }
             pq.pop();
         }
+        if(ok == 1){
+
+        }
     }
 
     return 0;
