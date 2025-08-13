@@ -21,6 +21,7 @@ int main(){
             while(pq.top() > n - i){
                 int x = pq.top();
                 pq.pop();
+                pq.push(x / 2);
             }
         }
     }
