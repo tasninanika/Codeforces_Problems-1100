@@ -15,6 +15,8 @@ int main(){
             cin >> x;
             pq.push(x);
         }
+
+        int ok = 1;
     }
 
     return 0;
