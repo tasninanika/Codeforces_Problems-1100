@@ -18,7 +18,9 @@ int main(){
 
         int ok = 1;
         for(int i = 0; i < n; i++){
+            while(pq.top() > n){
 
+            }
         }
     }
 
