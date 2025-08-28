@@ -20,6 +20,7 @@ int main(){
         }
 
         vector<int> suffix(n, 0);
+        distinct_chars.clear();
     }
 
     return 0;
