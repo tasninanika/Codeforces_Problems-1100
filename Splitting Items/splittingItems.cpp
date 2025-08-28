@@ -31,6 +31,7 @@ int main(){
         for(int i = 0; i < n - 1; i++){
             max_sum = max(max_sum, prefix[i] + suffix[i + 1]);
         }
+        cout << max_sum << endl;
     }
 
     return 0;
