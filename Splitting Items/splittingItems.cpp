@@ -11,6 +11,8 @@ int main(){
 
         string s;
         cin >> s;
+
+        vector<int> prefix(n, 0);
     }
 
     return 0;
