@@ -7,32 +7,28 @@ int main(){
 
     while(t--){
         int n;
-        cin >> n;
+        long long k;
+        cin >> n >> k;
 
-        string s;
-        cin >> s;
+        vector<long long> a(n);
+        for(int i = 0; i < n; ++i){
+            cin >> a[i];
+        }
+        sort(a.rbegin(), a.rend());
 
-        vector<int> prefix(n, 0);
-        set<char> distinct_chars;
+        long long ans = 0;
         for(int i = 0; i < n; i++){
-            distinct_chars.insert(s[i]);
-            prefix[i] = distinct_chars.size();
+            if (i % 2 == 0) {
+                ans += a[i];
+            }
+            else{
+                long long increase_by = min(k, a[i - 1] - a[i]);
+                a[i] += increase_by;
+                k -= increase_by;
+                ans -= a[i];
+            }
         }
-
-        vector<int> suffix(n, 0);
-        distinct_chars.clear();
-
-        for(int i = n - 1; i >= 0; i--){
-            distinct_chars.insert(s[i]);
-            suffix[i] = distinct_chars.size();
-        }
-
-        int max_sum = 0;
-        for(int i = 0; i < n - 1; i++){
-            max_sum = max(max_sum, prefix[i] + suffix[i + 1]);
-        }
-        cout << max_sum << endl;
+        cout << ans << endl;
     }
-
     return 0;
 }
