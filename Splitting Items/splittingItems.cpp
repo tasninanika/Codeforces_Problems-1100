@@ -16,6 +16,7 @@ int main(){
         set<char> distinct_chars;
         for(int i = 0; i < n; i++){
             distinct_chars.insert(s[i]);
+            prefix[i] = distinct_chars.size();
         }
     }
 
