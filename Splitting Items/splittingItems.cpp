@@ -26,6 +26,8 @@ int main(){
             distinct_chars.insert(s[i]);
             suffix[i] = distinct_chars.size();
         }
+
+        int max_sum = 0;
     }
 
     return 0;
