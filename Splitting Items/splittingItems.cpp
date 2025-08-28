@@ -23,7 +23,7 @@ int main(){
         distinct_chars.clear();
 
         for(int i = n - 1; i >= 0; i--){
-
+            distinct_chars.insert(s[i]);
         }
     }
 
