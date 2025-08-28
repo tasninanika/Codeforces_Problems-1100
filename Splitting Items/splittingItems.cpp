@@ -18,6 +18,8 @@ int main(){
             distinct_chars.insert(s[i]);
             prefix[i] = distinct_chars.size();
         }
+
+        vector<int> suffix(n, 0);
     }
 
     return 0;
