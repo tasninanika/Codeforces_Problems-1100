@@ -13,6 +13,7 @@ int main(){
         cin >> s;
 
         vector<int> prefix(n, 0);
+        set<char> distinct_chars;
     }
 
     return 0;
