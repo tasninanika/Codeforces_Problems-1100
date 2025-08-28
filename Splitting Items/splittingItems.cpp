@@ -29,7 +29,7 @@ int main(){
 
         int max_sum = 0;
         for(int i = 0; i < n - 1; i++){
-
+            max_sum = max(max_sum, prefix[i] + suffix[i + 1]);
         }
     }
 
