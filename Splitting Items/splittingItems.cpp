@@ -24,6 +24,7 @@ int main(){
 
         for(int i = n - 1; i >= 0; i--){
             distinct_chars.insert(s[i]);
+            suffix[i] = distinct_chars.size();
         }
     }
 
