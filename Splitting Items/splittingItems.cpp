@@ -14,6 +14,9 @@ int main(){
 
         vector<int> prefix(n, 0);
         set<char> distinct_chars;
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
