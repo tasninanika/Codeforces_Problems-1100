@@ -28,6 +28,9 @@ int main(){
         }
 
         int max_sum = 0;
+        for(int i = 0; i < n - 1; i++){
+
+        }
     }
 
     return 0;
