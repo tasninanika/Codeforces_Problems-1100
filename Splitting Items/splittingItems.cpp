@@ -21,6 +21,10 @@ int main(){
 
         vector<int> suffix(n, 0);
         distinct_chars.clear();
+
+        for(int i = n - 1; i >= 0; i--){
+
+        }
     }
 
     return 0;
