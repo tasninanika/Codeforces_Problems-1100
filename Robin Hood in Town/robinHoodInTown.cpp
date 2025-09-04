@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<long long> a(n);
+        long long sum = 0;
     }
 
 
