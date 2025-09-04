@@ -32,10 +32,10 @@ int main(){
         }
 
         if(need < 0){
-
+            need = 0;
         }
 
-        }
+
 
         cout << ans << endl;
     }
