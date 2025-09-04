@@ -23,6 +23,7 @@ int main(){
 
         for(int i = 0; i < needUnhappy; i++){
             long long need = 2LL * n * a[i] - sum + 1;
+            ans = max(ans, need);
         }
     }
 
