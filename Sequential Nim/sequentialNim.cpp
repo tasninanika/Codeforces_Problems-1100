@@ -33,7 +33,9 @@ int main(){
             if((idx + 1) % 2 == 1){
                 cout << "First" << endl;
             }
-            else cout << "Second\n";
+            else{
+                cout << "Second" << endl;
+            }
         }
     }
     return 0;
