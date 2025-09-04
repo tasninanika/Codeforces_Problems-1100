@@ -31,8 +31,10 @@ int main(){
             ans = max(ans, need);
         }
 
-        if(ans < 0){
-            ans = 0;
+        if(need < 0){
+
+        }
+
         }
 
         cout << ans << endl;
