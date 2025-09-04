@@ -15,6 +15,8 @@ int main(){
             cin >> a[i];
             sum += a[i];
         }
+
+        sort(a.begin(), a.end());
     }
 
 
