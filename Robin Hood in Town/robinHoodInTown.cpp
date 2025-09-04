@@ -24,7 +24,7 @@ int main(){
         sort(a.begin(), a.end());
 
         int k = n / 2 + 1;
-        long long ans = -1;
+        long long need = 2LL * n * a[k - 1] - sum + 1;
 
         for(int i = 0; i < needUnhappy; i++){
             long long need = 2LL * n * a[i] - sum + 1;
