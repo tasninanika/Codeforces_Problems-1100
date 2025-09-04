@@ -21,8 +21,10 @@ int main(){
             }
         }
 
-        if (idx == -1) {
-            if (n % 2 == 1) cout << "First\n";
+        if(idx == -1){
+            if(n % 2 == 1){
+                cout << "First" << endl;
+            }
             else cout << "Second\n";
         }
         else {
