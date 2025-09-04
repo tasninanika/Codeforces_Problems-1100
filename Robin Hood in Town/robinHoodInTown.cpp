@@ -31,8 +31,6 @@ int main(){
             need = 0;
         }
 
-
-
         cout << need << endl;
     }
 
