@@ -25,7 +25,9 @@ int main(){
             if(n % 2 == 1){
                 cout << "First" << endl;
             }
-            else cout << "Second\n";
+            else{
+                cout << "Second" << endl;
+            }
         }
         else {
             if ((idx + 1) % 2 == 1) cout << "First\n";
