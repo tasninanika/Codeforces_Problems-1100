@@ -16,6 +16,10 @@ int main(){
             sum += a[i];
         }
 
+        if(n == 1 || n == 2){
+
+        }
+
         sort(a.begin(), a.end());
 
         int needUnhappy = n / 2 + 1;
