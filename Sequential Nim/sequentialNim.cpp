@@ -15,8 +15,10 @@ int main(){
         }
 
         int idx = -1;
-        for (int i = 0; i < n; ++i) {
-            if (a[i] > 1) { idx = i; break; }
+        for(int i = 0; i < n; ++i){
+            if(a[i] > 1){
+                idx = i; break;
+            }
         }
 
         if (idx == -1) {
