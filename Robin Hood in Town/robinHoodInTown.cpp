@@ -18,6 +18,7 @@ int main(){
 
         if(n == 1 || n == 2){
             cout << -1 << endl;
+            continue;
         }
 
         sort(a.begin(), a.end());
