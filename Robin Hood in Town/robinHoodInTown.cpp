@@ -25,6 +25,10 @@ int main(){
             long long need = 2LL * n * a[i] - sum + 1;
             ans = max(ans, need);
         }
+
+        if(ans < 0){
+
+        }
     }
 
 
