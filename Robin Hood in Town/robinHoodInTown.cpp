@@ -20,6 +20,10 @@ int main(){
 
         int needUnhappy = n / 2 + 1;
         long long ans = -1;
+
+        for(int i = 0; i < needUnhappy; i++){
+
+        }
     }
 
 
