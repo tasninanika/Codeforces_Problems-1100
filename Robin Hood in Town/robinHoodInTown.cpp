@@ -17,6 +17,8 @@ int main(){
         }
 
         sort(a.begin(), a.end());
+
+        int needUnhappy = n / 2 + 1;
     }
 
 
