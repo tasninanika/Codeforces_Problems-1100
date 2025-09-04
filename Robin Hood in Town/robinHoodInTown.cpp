@@ -29,6 +29,8 @@ int main(){
         if(ans < 0){
             ans = 0;
         }
+
+        cout << ans << endl;
     }
 
 
