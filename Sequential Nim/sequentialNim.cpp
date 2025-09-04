@@ -29,8 +29,10 @@ int main(){
                 cout << "Second" << endl;
             }
         }
-        else {
-            if ((idx + 1) % 2 == 1) cout << "First\n";
+        else{
+            if((idx + 1) % 2 == 1){
+                cout << "First" << endl;
+            }
             else cout << "Second\n";
         }
     }
