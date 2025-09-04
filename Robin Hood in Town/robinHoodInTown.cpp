@@ -22,7 +22,7 @@ int main(){
         long long ans = -1;
 
         for(int i = 0; i < needUnhappy; i++){
-
+            long long need = 2LL * n * a[i] - sum + 1;
         }
     }
 
