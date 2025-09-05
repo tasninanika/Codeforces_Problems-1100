@@ -45,7 +45,7 @@ int main(){
                 continue;
             }
             if(!reachable[(int)prod]){
-
+                reachable[(int)prod] = 1;
             }
         }
     }
