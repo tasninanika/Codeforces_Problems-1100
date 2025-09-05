@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
@@ -9,32 +9,28 @@ int main(){
         int n;
         cin >> n;
 
-        vector<long long> a(n);
-        for(int i = 0; i < n; i++)
-            cin >> a[i];
+        int even_count = 0;
+        int odd_count = 0;
 
-        vector<long long> odd, even;
-        for(auto x : a){
-            if(x % 2)
-                odd.push_back(x);
-            else
-                even.push_back(x);
+        for(int i = 0; i < n; ++i){
+            int a;
+            cin >> a;
+
+            if(a % 2 == 0){
+                even_count++;
+            }
+            else{
+                odd_count++;
+            }
         }
 
-        if(odd.empty() || even.empty()){
+        if(even_count == 0 || odd_count == 0){
             cout << 0 << endl;
-            continue;
         }
-
-        sort(odd.begin(), odd.end());
-        sort(even.begin(), even.end());
-
-        int ans = even.size();
-
-        if(odd[0] < even.back())
-            ans += odd.size();
-
-        cout << ans << endl;
+        else{
+            cout << even_count << endl;
+        }
     }
+
     return 0;
 }
