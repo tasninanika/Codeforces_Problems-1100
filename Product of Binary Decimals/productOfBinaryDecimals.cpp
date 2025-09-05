@@ -10,6 +10,9 @@ int main(){
 
     while(!q.empty()){
         int x = q.front(); q.pop();
+        if(x > MAXN){
+            continue;
+        }
     }
 
     return 0;
