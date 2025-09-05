@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<int> a(n);
+        int odd = 0, even = 0;
     }
 
     return 0;
