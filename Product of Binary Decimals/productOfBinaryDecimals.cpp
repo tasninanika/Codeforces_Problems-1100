@@ -6,6 +6,7 @@ int main(){
 
     vector<int> binDec;
     queue<int> q;
+    q.push(1);
 
     return 0;
 }
