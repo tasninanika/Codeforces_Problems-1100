@@ -22,6 +22,10 @@ int main(){
                 even++;
             }
         }
+
+        if(odd == 0 || even == 0){
+
+        }
     }
 
     return 0;
