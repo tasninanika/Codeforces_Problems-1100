@@ -19,7 +19,7 @@ int main(){
                 odd++;
             }
             else{
-
+                even++;
             }
         }
     }
