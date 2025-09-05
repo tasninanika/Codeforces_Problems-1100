@@ -9,27 +9,32 @@ int main(){
         int n;
         cin >> n;
 
-        vector<int> a(n);
-        int odd = 0, even = 0;
-
-        for(int i = 0; i < n; i++){
+        vector<long long> a(n);
+        for(int i = 0; i < n; i++)
             cin >> a[i];
 
-            if(a[i] % 2){
-                odd++;
-            }
-            else{
-                even++;
-            }
+        vector<long long> odd, even;
+        for(auto x : a){
+            if(x % 2)
+                odd.push_back(x);
+            else
+                even.push_back(x);
         }
 
-        if(odd == 0 || even == 0){
+        if(odd.empty() || even.empty()){
             cout << 0 << endl;
+            continue;
         }
-        else{
-            cout << min(even, odd) << endl;
-        }
-    }
 
+        sort(odd.begin(), odd.end());
+        sort(even.begin(), even.end());
+
+        int ans = even.size();
+
+        if(odd[0] < even.back())
+            ans += odd.size();
+
+        cout << ans << endl;
+    }
     return 0;
 }
