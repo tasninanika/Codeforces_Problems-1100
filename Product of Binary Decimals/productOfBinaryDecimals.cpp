@@ -37,7 +37,7 @@ int main(){
     bfs.push(1);
 
     while(!bfs.empty()){
-
+        int cur = bfs.front(); bfs.pop();
     }
 
     return 0;
