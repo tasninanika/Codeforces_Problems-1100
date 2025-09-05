@@ -8,5 +8,9 @@ int main(){
     queue<int> q;
     q.push(1);
 
+    while(!q.empty()){
+
+    }
+
     return 0;
 }
