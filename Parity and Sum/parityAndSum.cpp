@@ -26,6 +26,9 @@ int main(){
         if(odd == 0 || even == 0){
             cout << 0 << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
