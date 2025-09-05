@@ -13,6 +13,7 @@ int main(){
         if(x > MAXN){
             continue;
         }
+        binDec.push_back(x);
     }
 
     return 0;
