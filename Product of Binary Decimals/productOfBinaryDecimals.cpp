@@ -20,7 +20,7 @@ int main(){
             q.push((int)x0);
         }
         if(x1 <= MAXN){
-
+          q.push((int)x1);
         }
     }
 
