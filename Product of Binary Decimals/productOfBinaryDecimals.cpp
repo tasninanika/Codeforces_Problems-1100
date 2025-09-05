@@ -15,6 +15,7 @@ int main(){
         }
         binDec.push_back(x);
         long long x0 = 1LL * x * 10;
+        long long x1 = x0 + 1;
     }
 
     return 0;
