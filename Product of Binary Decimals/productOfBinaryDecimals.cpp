@@ -46,6 +46,7 @@ int main(){
             }
             if(!reachable[(int)prod]){
                 reachable[(int)prod] = 1;
+                bfs.push((int)prod);
             }
         }
     }
