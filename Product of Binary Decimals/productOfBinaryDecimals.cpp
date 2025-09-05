@@ -44,6 +44,9 @@ int main(){
             if(prod > MAXN){
                 continue;
             }
+            if(!reachable[(int)prod]){
+
+            }
         }
     }
 
