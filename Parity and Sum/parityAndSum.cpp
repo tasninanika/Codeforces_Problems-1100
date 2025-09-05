@@ -18,6 +18,9 @@ int main(){
             if(a[i] % 2){
                 odd++;
             }
+            else{
+
+            }
         }
     }
 
