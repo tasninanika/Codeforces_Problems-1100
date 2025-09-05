@@ -9,7 +9,7 @@ int main(){
     q.push(1);
 
     while(!q.empty()){
-
+        int x = q.front(); q.pop();
     }
 
     return 0;
