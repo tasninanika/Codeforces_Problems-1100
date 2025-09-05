@@ -24,5 +24,7 @@ int main(){
         }
     }
 
+    vector<int> mult;
+
     return 0;
 }
