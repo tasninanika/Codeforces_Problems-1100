@@ -16,7 +16,7 @@ int main(){
             cin >> a[i];
 
             if(a[i] % 2){
-
+                odd++;
             }
         }
     }
