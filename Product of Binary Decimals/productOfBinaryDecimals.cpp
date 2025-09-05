@@ -19,6 +19,9 @@ int main(){
         if(x0 <= MAXN){
             q.push((int)x0);
         }
+        if(x1 <= MAXN){
+
+        }
     }
 
     return 0;
