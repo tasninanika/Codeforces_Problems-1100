@@ -32,6 +32,7 @@ int main(){
     }
 
     vector<char> reachable(MAXN + 1, 0);
+    reachable[1] = 1;
 
     return 0;
 }
