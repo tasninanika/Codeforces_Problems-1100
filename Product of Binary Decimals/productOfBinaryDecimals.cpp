@@ -25,6 +25,11 @@ int main(){
     }
 
     vector<int> mult;
+    for(int v : binDec){
+        if(v != 1){
+            mult.push_back(v);
+        }
+    }
 
     return 0;
 }
