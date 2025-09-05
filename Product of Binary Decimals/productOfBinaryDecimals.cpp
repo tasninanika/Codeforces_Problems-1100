@@ -37,7 +37,11 @@ int main(){
     bfs.push(1);
 
     while(!bfs.empty()){
-        int cur = bfs.front(); bfs.pop();
+        int cur = bfs.front();
+        bfs.pop();
+        for(int m : mult){
+
+        }
     }
 
     return 0;
