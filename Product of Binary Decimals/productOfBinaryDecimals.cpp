@@ -56,6 +56,7 @@ int main(){
 
     while(t--){
         int n;
+        cin >> n;
     }
 
     return 0;
