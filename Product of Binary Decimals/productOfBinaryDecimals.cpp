@@ -52,6 +52,7 @@ int main(){
     }
 
     int t;
+    cin >> t;
 
     return 0;
 }
