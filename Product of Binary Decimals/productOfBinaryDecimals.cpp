@@ -36,5 +36,9 @@ int main(){
     queue<int> bfs;
     bfs.push(1);
 
+    while(!bfs.empty()){
+
+    }
+
     return 0;
 }
