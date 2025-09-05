@@ -57,6 +57,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        cout << (reachable[n] ? "YES" : "NO") << endl;
     }
 
     return 0;
