@@ -30,7 +30,7 @@ int main() {
             sum += diffs[i];
             cout << sum << " ";
         }
-        cout << "\n";
+        cout << endl;
     }
     return 0;
 }
