@@ -41,6 +41,9 @@ int main(){
         bfs.pop();
         for(int m : mult){
             long long prod = 1LL * cur * m;
+            if(prod > MAXN){
+                continue;
+            }
         }
     }
 
