@@ -29,7 +29,7 @@ int main(){
                 pick = min(pick, v1);
             }
             if(v2 >= prev){
-
+                pick = min(pick, v2);
             }
         }
     }
