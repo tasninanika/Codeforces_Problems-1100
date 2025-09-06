@@ -29,6 +29,7 @@ int main(){
                 pq.push(a[i]);
             }
         }
+        cout << total << endl;
     }
 
 
