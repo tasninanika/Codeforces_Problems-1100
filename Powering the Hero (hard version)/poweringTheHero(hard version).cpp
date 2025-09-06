@@ -4,6 +4,7 @@ using ll = long long;
 
 int main(){
     int t;
+    cin >> t;
 
 
     return 0;
