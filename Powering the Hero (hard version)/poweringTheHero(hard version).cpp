@@ -3,7 +3,7 @@ using namespace std;
 using ll = long long;
 
 int main(){
-
+    int t;
 
 
     return 0;
