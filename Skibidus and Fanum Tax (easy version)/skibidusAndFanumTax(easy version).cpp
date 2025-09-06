@@ -26,7 +26,7 @@ int main(){
             ll pick = 1e18;
 
             if(v1 >= prev){
-
+                pick = min(pick, v1);
             }
         }
     }
