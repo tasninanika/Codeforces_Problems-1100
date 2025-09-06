@@ -19,6 +19,7 @@ int main(){
         cin >> x;
 
         ll prev = -1e18;
+        bool ok = true;
     }
 
     return 0;
