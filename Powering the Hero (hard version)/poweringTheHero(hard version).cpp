@@ -22,6 +22,7 @@ int main(){
             if(a[i] == 0){
                 if(!pq.empty()){
                     total += pq.top();
+                    pq.pop();
                 }
             }
         }
