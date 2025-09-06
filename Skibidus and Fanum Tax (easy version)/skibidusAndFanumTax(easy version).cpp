@@ -31,6 +31,9 @@ int main(){
             if(v2 >= prev){
                 pick = min(pick, v2);
             }
+            if(pick == (ll)1e18{
+
+            }
         }
     }
 
