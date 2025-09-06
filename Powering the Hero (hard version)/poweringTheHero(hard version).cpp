@@ -16,6 +16,7 @@ int main(){
         }
 
         priority_queue<ll> pq;
+        ll total = 0;
     }
 
 
