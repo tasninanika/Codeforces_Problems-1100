@@ -37,6 +37,9 @@ int main(){
             }
             prev = pick;
         }
+        if(ok){
+
+        }
     }
 
     return 0;
