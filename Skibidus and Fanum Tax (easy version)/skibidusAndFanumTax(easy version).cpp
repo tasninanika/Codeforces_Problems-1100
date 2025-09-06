@@ -40,6 +40,9 @@ int main(){
         if(ok){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
