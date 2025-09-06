@@ -32,7 +32,8 @@ int main(){
                 pick = min(pick, v2);
             }
             if(pick == (ll)1e18{
-
+                ok = false;
+                break;
             }
         }
     }
