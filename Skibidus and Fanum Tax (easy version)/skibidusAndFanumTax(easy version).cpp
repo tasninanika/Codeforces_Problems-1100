@@ -14,6 +14,9 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        ll x;
+        cin >> x;
     }
 
     return 0;
