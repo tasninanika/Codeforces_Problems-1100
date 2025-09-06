@@ -22,7 +22,7 @@ int main(){
         bool ok = true;
 
         for(int i=0; i<n; i++){
-
+            ll v1 = a[i], v2 = x - a[i];
         }
     }
 
