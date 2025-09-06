@@ -20,6 +20,10 @@ int main(){
 
         ll prev = -1e18;
         bool ok = true;
+
+        for(int i=0; i<n; i++){
+
+        }
     }
 
     return 0;
