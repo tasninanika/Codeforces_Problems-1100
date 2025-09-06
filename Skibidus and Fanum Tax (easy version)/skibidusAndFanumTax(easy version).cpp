@@ -9,6 +9,8 @@ int main(){
     while(t--){
         int n, m;
         cin >> n >> m;
+
+        vector<ll> a(n);
     }
 
     return 0;
