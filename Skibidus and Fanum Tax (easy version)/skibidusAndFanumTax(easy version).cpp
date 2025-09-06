@@ -17,6 +17,8 @@ int main(){
 
         ll x;
         cin >> x;
+
+        ll prev = -1e18;
     }
 
     return 0;
