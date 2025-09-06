@@ -23,6 +23,7 @@ int main(){
 
         for(int i=0; i<n; i++){
             ll v1 = a[i], v2 = x - a[i];
+            ll pick = 1e18;
         }
     }
 
