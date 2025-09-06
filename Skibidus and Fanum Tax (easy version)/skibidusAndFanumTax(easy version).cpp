@@ -28,6 +28,9 @@ int main(){
             if(v1 >= prev){
                 pick = min(pick, v1);
             }
+            if(v2 >= prev){
+
+            }
         }
     }
 
