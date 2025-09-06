@@ -38,7 +38,7 @@ int main(){
             prev = pick;
         }
         if(ok){
-
+            cout << "YES" << endl;
         }
     }
 
