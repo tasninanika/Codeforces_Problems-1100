@@ -38,6 +38,9 @@ int main(){
     for(int i = 0; i < (int)pos.size(); i++){
         s2.push_back(pos[i]);
     }
+    for(int i = 0; i < (int)zero.size(); i++){
+
+    }
 
     return 0;
 }
