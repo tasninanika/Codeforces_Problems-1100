@@ -48,5 +48,7 @@ int main(){
     }
     cout << endl;
 
+    cout << s2.size();
+
     return 0;
 }
