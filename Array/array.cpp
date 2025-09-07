@@ -28,7 +28,7 @@ int main(){
     neg.pop_back();
 
     if(neg.size() % 2 == 1){
-
+        s3.push_back(neg.back());
     }
 
     return 0;
