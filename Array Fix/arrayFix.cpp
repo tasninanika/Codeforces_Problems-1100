@@ -26,6 +26,9 @@ int main(){
             }
         }
         bool ok = true;
+        for(int i = 1; i < (int)finalArray.size(); i++){
+
+        }
     }
 
     return 0;
