@@ -32,6 +32,9 @@ int main(){
                 break;
             }
         }
+        if(ok){
+
+        }
     }
 
     return 0;
