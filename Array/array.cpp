@@ -46,6 +46,7 @@ int main(){
     for(int i = 0; i < (int)s1.size(); i++){
         cout << " " << s1[i];
     }
+    cout << endl;
 
     return 0;
 }
