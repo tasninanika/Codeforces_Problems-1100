@@ -52,6 +52,7 @@ int main(){
     for(int i = 0; i < (int)s2.size(); i++){
         cout << " " << s2[i];
     }
+    cout << endl;
 
     return 0;
 }
