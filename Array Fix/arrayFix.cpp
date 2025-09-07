@@ -25,6 +25,7 @@ int main(){
                 finalArray.push_back(a[i] % 10);
             }
         }
+        bool ok = true;
     }
 
     return 0;
