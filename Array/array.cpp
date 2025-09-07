@@ -44,7 +44,7 @@ int main(){
     cout << s1.size();
 
     for(int i = 0; i < (int)s1.size(); i++){
-
+        cout << " " << s1[i];
     }
 
     return 0;
