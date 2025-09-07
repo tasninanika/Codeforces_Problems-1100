@@ -20,6 +20,9 @@ int main(){
             if(a[i] < 10){
                 finalArray.push_back(a[i]);
             }
+            else{
+
+            }
         }
     }
 
