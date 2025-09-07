@@ -25,6 +25,7 @@ int main(){
 
     vector<int> s1, s2, s3;
     s1.push_back(neg.back());
+    neg.pop_back();
 
     return 0;
 }
