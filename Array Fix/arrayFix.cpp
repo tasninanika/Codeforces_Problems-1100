@@ -15,6 +15,10 @@ int main(){
         }
 
         vector<int> finalArray;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
