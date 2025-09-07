@@ -19,7 +19,7 @@ int main(){
             pos.push_back(a[i]);
         }
         else{
-
+            zero.push_back(a[i]);
         }
     }
 
