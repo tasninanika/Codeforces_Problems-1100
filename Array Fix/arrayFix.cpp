@@ -21,7 +21,7 @@ int main(){
                 finalArray.push_back(a[i]);
             }
             else{
-
+                finalArray.push_back(a[i] / 10);
             }
         }
     }
