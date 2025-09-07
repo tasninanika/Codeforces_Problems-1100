@@ -41,6 +41,7 @@ int main(){
     for(int i = 0; i < (int)zero.size(); i++){
         s3.push_back(zero[i]);
     }
+    cout << s1.size();
 
     return 0;
 }
