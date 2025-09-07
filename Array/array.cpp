@@ -18,6 +18,9 @@ int main(){
         else if(a[i] > 0){
             pos.push_back(a[i]);
         }
+        else{
+
+        }
     }
 
     return 0;
