@@ -23,5 +23,7 @@ int main(){
         }
     }
 
+    vector<int> s1, s2, s3;
+
     return 0;
 }
