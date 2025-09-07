@@ -27,5 +27,9 @@ int main(){
     s1.push_back(neg.back());
     neg.pop_back();
 
+    if(neg.size() % 2 == 1){
+
+    }
+
     return 0;
 }
