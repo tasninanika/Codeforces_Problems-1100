@@ -16,7 +16,7 @@ int main(){
             neg.push_back(a[i]);
         }
         else if(a[i] > 0){
-
+            pos.push_back(a[i]);
         }
     }
 
