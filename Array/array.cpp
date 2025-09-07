@@ -13,7 +13,7 @@ int main(){
     vector<int> neg, pos, zero;
     for(int i = 0; i < n; i++){
         if(a[i] < 0){
-
+            neg.push_back(a[i]);
         }
     }
 
