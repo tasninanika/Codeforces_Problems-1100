@@ -56,7 +56,7 @@ int main(){
 
     cout << s3.size();
     for(int i = 0; i < (int)s3.size(); i++){
-
+        cout << " " << s3[i];
     }
 
     return 0;
