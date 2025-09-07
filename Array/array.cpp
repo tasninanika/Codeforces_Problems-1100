@@ -41,8 +41,8 @@ int main(){
     for(int i = 0; i < (int)zero.size(); i++){
         s3.push_back(zero[i]);
     }
-    cout << s1.size();
 
+    cout << s1.size();
     for(int i = 0; i < (int)s1.size(); i++){
         cout << " " << s1[i];
     }
@@ -53,6 +53,8 @@ int main(){
         cout << " " << s2[i];
     }
     cout << endl;
+
+    cout << s3.size();
 
     return 0;
 }
