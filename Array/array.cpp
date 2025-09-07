@@ -50,7 +50,7 @@ int main(){
 
     cout << s2.size();
     for(int i = 0; i < (int)s2.size(); i++){
-
+        cout << " " << s2[i];
     }
 
     return 0;
