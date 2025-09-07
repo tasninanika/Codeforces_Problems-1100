@@ -15,6 +15,9 @@ int main(){
         if(a[i] < 0){
             neg.push_back(a[i]);
         }
+        else if(a[i] > 0){
+
+        }
     }
 
     return 0;
