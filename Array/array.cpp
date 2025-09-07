@@ -32,5 +32,9 @@ int main(){
         neg.pop_back();
     }
 
+    for(int i = 0; i < (int)neg.size(); i++){
+
+    }
+
     return 0;
 }
