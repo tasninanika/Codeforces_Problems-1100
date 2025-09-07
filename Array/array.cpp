@@ -55,6 +55,9 @@ int main(){
     cout << endl;
 
     cout << s3.size();
+    for(int i = 0; i < (int)s3.size(); i++){
+
+    }
 
     return 0;
 }
