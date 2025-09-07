@@ -39,7 +39,7 @@ int main(){
         s2.push_back(pos[i]);
     }
     for(int i = 0; i < (int)zero.size(); i++){
-
+        s3.push_back(zero[i]);
     }
 
     return 0;
