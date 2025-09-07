@@ -49,6 +49,9 @@ int main(){
     cout << endl;
 
     cout << s2.size();
+    for(int i = 0; i < (int)s2.size(); i++){
+
+    }
 
     return 0;
 }
