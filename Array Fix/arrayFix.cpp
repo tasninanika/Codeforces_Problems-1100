@@ -1,44 +1,45 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int t;
-    cin >> t;
+void solve() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) cin >> a[i];
 
-    while(t--){
-        int n;
-        cin >> n;
+    int max1 = 1e10;
 
-        vector<int> a(n);
-        for(int i = 0; i < n; i++){
-            cin >> a[i];
+    for (int i = n - 1; i >= 0; i--) {
+        if (a[i] <= max1) {
+            max1 = min(max1, a[i]);
         }
+        else {
+            vector<int> digits;
+            int x = a[i];
 
-        vector<int> finalArray;
-
-        for(int i = 0; i < n; i++){
-            if(a[i] < 10){
-                finalArray.push_back(a[i]);
+            while (x > 0) {
+                digits.push_back(x % 10);
+                x /= 10;
             }
-            else{
-                finalArray.push_back(a[i] / 10);
-                finalArray.push_back(a[i] % 10);
+            for (int j = digits.size() - 1; j >= 0; j--) {
+                if (digits[j] > max1) {
+                    cout << "NO" << endl;
+                    return;
+                }
+                max1 = digits[j];
             }
-        }
-        bool ok = true;
-        for(int i = 1; i < (int)finalArray.size(); i++){
-            if(finalArray[i] < finalArray[i - 1]){
-                ok = false;
-                break;
-            }
-        }
-        if(ok){
-            cout << "YES" << endl;
-        }
-        else{
-            cout << "NO" << endl;
         }
     }
 
+    cout << "YES" << endl;
+}
+
+int main() {
+    int t;
+    cin >> t;
+
+    while (t--) {
+        solve();
+    }
     return 0;
 }
