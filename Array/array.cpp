@@ -35,6 +35,9 @@ int main(){
     for(int i = 0; i < (int)neg.size(); i++){
         s2.push_back(neg[i]);
     }
+    for(int i = 0; i < (int)pos.size(); i++){
+
+    }
 
     return 0;
 }
