@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    vector<int> neg, pos, zero;
+
     return 0;
 }
