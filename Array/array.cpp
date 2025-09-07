@@ -11,6 +11,9 @@ int main(){
     }
 
     vector<int> neg, pos, zero;
+    for(int i = 0; i < n; i++){
+
+    }
 
     return 0;
 }
