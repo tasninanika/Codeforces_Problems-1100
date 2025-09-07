@@ -18,7 +18,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             if(a[i] < 10){
-
+                finalArray.push_back(a[i]);
             }
         }
     }
