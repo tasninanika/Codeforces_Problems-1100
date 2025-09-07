@@ -12,7 +12,9 @@ int main(){
 
     vector<int> neg, pos, zero;
     for(int i = 0; i < n; i++){
+        if(a[i] < 0){
 
+        }
     }
 
     return 0;
