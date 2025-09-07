@@ -29,6 +29,7 @@ int main(){
         for(int i = 1; i < (int)finalArray.size(); i++){
             if(finalArray[i] < finalArray[i - 1]){
                 ok = false;
+                break;
             }
         }
     }
