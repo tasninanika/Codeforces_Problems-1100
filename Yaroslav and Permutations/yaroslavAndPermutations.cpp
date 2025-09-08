@@ -29,6 +29,7 @@ int main(){
                     digits.push_back(x % 10);
                     x /= 10;
                 }
+                reverse(digits.begin(), digits.end());
             }
         }
     }
