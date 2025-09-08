@@ -30,6 +30,10 @@ int main(){
                     x /= 10;
                 }
                 reverse(digits.begin(), digits.end());
+
+                for(int d : digits){
+
+                }
             }
         }
     }
