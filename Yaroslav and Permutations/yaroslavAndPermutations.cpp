@@ -23,6 +23,7 @@ int main(){
             }
             else{
                 int x = a[i];
+                vector<int> digits;
             }
         }
     }
