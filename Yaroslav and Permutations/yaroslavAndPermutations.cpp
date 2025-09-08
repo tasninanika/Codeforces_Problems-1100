@@ -1,39 +1,27 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main(){
+    int n;
+    cin >> n;
 
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a(n);
-        for (int i = 0; i < n; i++) cin >> a[i];
+    vector<int> a(n);
+    map<int,int> freq;
 
-        long long max_allowed = 1e10;
-        bool ok = true;
-
-        for (int i = n - 1; i >= 0; i--) {
-            if (a[i] <= max_allowed) {
-                max_allowed = a[i];
-            } else {
-                string s = to_string(a[i]);
-                for (char c : s) {
-                    int digit = c - '0';
-                    if (digit > max_allowed) {
-                        ok = false;
-                        break;
-                    }
-                    max_allowed = min<long long>(max_allowed, digit);
-                }
-                if (!ok) break;
-            }
-        }
-
-        cout << (ok ? "YES\n" : "NO\n");
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+        freq[a[i]]++;
     }
+
+    int max_freq = 0;
+    for(auto x : freq){
+        max_freq = max(max_freq, x.second);
+    }
+
+    if(max_freq <= (n + 1) / 2)
+        cout << "YES" << endl;
+    else
+        cout << "NO" << endl;
+
     return 0;
 }
