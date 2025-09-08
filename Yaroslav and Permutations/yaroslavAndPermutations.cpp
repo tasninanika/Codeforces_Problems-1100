@@ -38,6 +38,8 @@ int main(){
                     }
                     max_allowed = min<long long>(max_allowed, d);
                 }
+                if (!ok)
+                    break;
             }
         }
     }
