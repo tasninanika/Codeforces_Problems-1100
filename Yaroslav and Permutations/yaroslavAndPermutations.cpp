@@ -21,6 +21,9 @@ int main(){
             if(a[i] <= max_allowed){
                 max_allowed = a[i];
             }
+            else{
+
+            }
         }
     }
 
