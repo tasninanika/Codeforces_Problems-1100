@@ -42,6 +42,9 @@ int main(){
                     break;
             }
         }
+        if(ok){
+
+        }
     }
 
 
