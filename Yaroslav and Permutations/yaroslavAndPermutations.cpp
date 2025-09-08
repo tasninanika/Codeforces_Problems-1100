@@ -15,6 +15,7 @@ int main(){
         }
 
         long long max_allowed = 1e10;
+        bool ok = true;
     }
 
 
