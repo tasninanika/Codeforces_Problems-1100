@@ -32,7 +32,9 @@ int main(){
                 reverse(digits.begin(), digits.end());
 
                 for(int d : digits){
+                    if(d > max_allowed){
 
+                    }
                 }
             }
         }
