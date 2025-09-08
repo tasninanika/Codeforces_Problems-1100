@@ -16,6 +16,10 @@ int main(){
 
         long long max_allowed = 1e10;
         bool ok = true;
+
+        for(int i = n - 1; i >= 0; i--){
+
+        }
     }
 
 
