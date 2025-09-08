@@ -22,7 +22,7 @@ int main(){
                 max_allowed = a[i];
             }
             else{
-
+                int x = a[i];
             }
         }
     }
