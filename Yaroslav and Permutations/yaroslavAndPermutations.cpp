@@ -27,6 +27,7 @@ int main(){
 
                 while(x > 0){
                     digits.push_back(x % 10);
+                    x /= 10;
                 }
             }
         }
