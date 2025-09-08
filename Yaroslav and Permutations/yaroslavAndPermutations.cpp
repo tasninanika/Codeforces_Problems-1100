@@ -45,6 +45,9 @@ int main(){
         if(ok){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
 
