@@ -18,7 +18,9 @@ int main(){
         bool ok = true;
 
         for(int i = n - 1; i >= 0; i--){
+            if(a[i] <= max_allowed){
 
+            }
         }
     }
 
