@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        long long max_allowed = 1e10;
     }
 
 
