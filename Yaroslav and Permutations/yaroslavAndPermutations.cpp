@@ -34,6 +34,7 @@ int main(){
                 for(int d : digits){
                     if(d > max_allowed){
                         ok = false;
+                        break;
                     }
                 }
             }
