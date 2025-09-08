@@ -26,7 +26,7 @@ int main(){
                 vector<int> digits;
 
                 while(x > 0){
-
+                    digits.push_back(x % 10);
                 }
             }
         }
