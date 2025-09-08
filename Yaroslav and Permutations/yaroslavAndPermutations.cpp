@@ -1,55 +1,39 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int t;
     cin >> t;
-
-    while(t--){
+    while (t--) {
         int n;
         cin >> n;
-
         vector<int> a(n);
-        for(int i = 0; i < n; i++){
-            cin >> a[i];
-        }
+        for (int i = 0; i < n; i++) cin >> a[i];
 
         long long max_allowed = 1e10;
         bool ok = true;
 
-        for(int i = n - 1; i >= 0; i--){
-            if(a[i] <= max_allowed){
+        for (int i = n - 1; i >= 0; i--) {
+            if (a[i] <= max_allowed) {
                 max_allowed = a[i];
-            }
-            else{
-                int x = a[i];
-                vector<int> digits;
-
-                while(x > 0){
-                    digits.push_back(x % 10);
-                    x /= 10;
-                }
-                reverse(digits.begin(), digits.end());
-
-                for(int d : digits){
-                    if(d > max_allowed){
+            } else {
+                string s = to_string(a[i]);
+                for (char c : s) {
+                    int digit = c - '0';
+                    if (digit > max_allowed) {
                         ok = false;
                         break;
                     }
-                    max_allowed = min<long long>(max_allowed, d);
+                    max_allowed = min<long long>(max_allowed, digit);
                 }
-                if (!ok)
-                    break;
+                if (!ok) break;
             }
         }
-        if(ok){
-            cout << "YES" << endl;
-        }
-        else{
-            cout << "NO" << endl;
-        }
+
+        cout << (ok ? "YES\n" : "NO\n");
     }
-
-
     return 0;
 }
