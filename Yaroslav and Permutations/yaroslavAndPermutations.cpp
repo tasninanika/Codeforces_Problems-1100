@@ -36,6 +36,7 @@ int main(){
                         ok = false;
                         break;
                     }
+                    max_allowed = min<long long>(max_allowed, d);
                 }
             }
         }
